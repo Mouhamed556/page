@@ -1,0 +1,40 @@
+#nav {
+    background: linear-gradient(90deg, #4A90E2, #50E3C2);
+    padding: 20px 40px; 
+    display: flex;
+    justify-content: space-around; 
+    border-radius: 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 1000; 
+}
+
+body {
+    padding-top: 80px; 
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px; 
+    border-radius: 5px; 
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#nav a:hover {
+    background-color: #357ABD;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 8px; 
+}
